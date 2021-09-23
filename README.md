@@ -14,7 +14,8 @@ The information contained in this site is provided on an "as is" basis with no g
 ## Background
 A long-established industry practice is to stay below a flow rate of 1 m/s and a pressure drop of 100 Pa/m in service pipes. 
 The purpose is to avoid reduced comfort for customers due to high noise levels and increased wear on components. 
-However, this practice is beginning to be questioned and with a more dynamic approach to system dimensioning. 
+However, this practice is beginning to be questioned and with a more dynamic approach to system dimensioning, the competitiveness of district heating will increase.
+ 
 This software represent one outcome from a project aimed at questioning that industry practice. The findings from the project has emerged into a software to help optimize the dimensioning of service pipes. 
 The project consisted of a literature study, a survey among network owners, interviews of measurement technology providers and product suppliers in the district heating sector. It also included experiments in a laboratory environment. 
 
