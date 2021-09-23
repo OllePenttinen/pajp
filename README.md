@@ -5,7 +5,7 @@ Author: Olle Penttinen, Researcher @ [RISE Research Institutes of Sweden](https:
 
 
 ## Disclaimer
-The author can not be held responsible for your use of the information contained in or linked from these web pages and any implications that may lead to. 
+The author can not be held responsible for your use of the information contained in or linked from these web pages or any implications that may lead to. 
 The author assumes no responsibility or liability for any errors or omissions in the content of this site. 
 The information contained in this site is provided on an "as is" basis with no guarantees of completeness, accuracy, usefulness and without any warranties of any kind whatsoever, expressed or implied.
 
