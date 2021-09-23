@@ -1,7 +1,7 @@
 # pajp
 A tool for service pipe dimensioning within district heating applications.
 
-Authors: Olle Penttinen and Pelle Penttinen
+Authors: Olle Penttinen, researcher at RISE Research Institutes of Sweden, supported by Pelle Penttinen
 
 Date: 2021-09-22
 
@@ -10,6 +10,15 @@ Date: 2021-09-22
 None of the authors is responsible for your use of the information contained in or linked from these web pages and any implications that may lead to. 
 The authors assumes no responsibility or liability for any errors or omissions in the content of this site. 
 The information contained in this site is provided on an "as is" basis with no guarantees of completeness, accuracy, usefulness and without any warranties of any kind whatsoever, expressed or implied.
+
+## Background
+A long-established industry practice is to stay below a flow rate of 1 m/s and a pressure drop of 100 Pa/m in service pipes. 
+The purpose is to avoid reduced comfort for customers due to high noise levels and increased wear on components. 
+However, this practice is beginning to be questioned and with a more dynamic approach to system dimensioning. 
+This software represent one outcome from a project aimed at questioning that industry practice. The findings from the project has emerged into a software to help optimize the dimensioning of service pipes. 
+The project consisted of a literature study, a survey among network owners, interviews of measurement technology providers and product suppliers in the district heating sector. It also included experiments in a laboratory environment. 
+
+This project was initiated and funded by Energiforsk/Futureheat. 
 
 ## Functionality
 The inputs to the left are used to calculate a difference in enthalpy. Preset values are entered to trigger three types of warning badges among the results. The enthalpy difference is used to calculate a massflow in order to serve the substation with the stated power. Corresponding pressure drops, velocities and differential pressures are calculated and stored for the different pipe dimensions.
