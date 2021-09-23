@@ -5,15 +5,13 @@ Authors: Olle Penttinen and Pelle Penttinen
 
 Date: 2021-09-22
 
-**********************************************************************
-Disclaimer
-**********************************************************************
+
+## Disclaimer
 None of the authors is responsible for your use of the information contained in or linked from these web pages and any implications that may lead to. 
 The authors assumes no responsibility or liability for any errors or omissions in the content of this site. 
 The information contained in this site is provided on an "as is" basis with no guarantees of completeness, accuracy, usefulness and without any warranties of any kind whatsoever, expressed or implied.
-**********************************************************************
-Functionality
-**********************************************************************
+
+## Functionality
 The inputs to the left are used to calculate a difference in enthalpy. Preset values are entered to trigger three types of warning badges among the results. The enthalpy difference is used to calculate a massflow in order to serve the substation with the stated power. Corresponding pressure drops, velocities and differential pressures are calculated and stored for the different pipe dimensions.
 
 Densities, viscosities and enthalpies are calculated based on IAPWS formulation. Friction factor is retrieved by solving the Colebrook-White equation iteratively. Warnings are raised if values are outside of known limits:
