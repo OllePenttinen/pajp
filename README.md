@@ -17,7 +17,7 @@ However, this practice is beginning to be questioned and with a more dynamic app
 This software represent one outcome from a project aimed at questioning that industry practice. The findings from the project has emerged into a software to help optimize the dimensioning of service pipes. 
 The project consisted of a literature study, a survey among network owners, interviews of measurement technology providers and product suppliers in the district heating sector. It also included experiments in a laboratory environment. 
 
-This project was initiated and funded by [Energiforsk/Futureheat](https://energiforsk.se/program/futureheat/). 
+This project was coordinated by [FVB](https://www.fvb.se/). The project was initiated and funded by [Energiforsk/Futureheat](https://energiforsk.se/program/futureheat/). 
 
 ## Functionality
 The inputs to the left are used to calculate a difference in enthalpy. Preset values are entered to trigger three types of warning badges among the results. The enthalpy difference is used to calculate a massflow in order to serve the substation with the stated power. Corresponding pressure drops, velocities and differential pressures are calculated and stored for the different pipe dimensions.
