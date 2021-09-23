@@ -1,9 +1,9 @@
 # pajp
 A tool for service pipe dimensioning within district heating applications.
 
-Authors: Olle Penttinen, researcher at RISE Research Institutes of Sweden, supported by Pelle Penttinen
+Authors: Olle Penttinen, researcher at [RISE Research Institutes of Sweden](https://www.ri.se/en), supported by Pelle Penttinen, co-funder [Pikselfabrikken AS](https://www.facebook.com/pikselfabrikken/?ref=page_internal)
 
-Date: 2021-09-22
+Date: 2021-09-23
 
 
 ## Disclaimer
