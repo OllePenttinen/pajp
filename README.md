@@ -5,9 +5,6 @@ Authors: Olle Penttinen and Pelle Penttinen
 
 Date: 2021-09-22
 
-Copyright: Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
-
-
 **********************************************************************
 Disclaimer
 **********************************************************************
@@ -17,13 +14,9 @@ The information contained in this site is provided on an "as is" basis with no g
 **********************************************************************
 Functionality
 **********************************************************************
-The inputs to the left are used to calculate a difference in enthalpy. Preset values are entered to trigger three types of warning badges among the results.
- 
-The enthalpy difference is used to calculate a massflow in order to serve the substation with the stated power.
+The inputs to the left are used to calculate a difference in enthalpy. Preset values are entered to trigger three types of warning badges among the results. The enthalpy difference is used to calculate a massflow in order to serve the substation with the stated power. Corresponding pressure drops, velocities and differential pressures are calculated and stored for the different pipe dimensions.
 
-Corresponding pressure drops, velocities and differential pressures are calculated and stored for the different pipe dimensions.
-
-Densities, viscosities and enthalpy are calculated based on IAPWS formulation. Friction factor is retrieved by solving the Colebrook-White equation iteratively. Warnings are raised if values are outside of known limits:
+Densities, viscosities and enthalpies are calculated based on IAPWS formulation. Friction factor is retrieved by solving the Colebrook-White equation iteratively. Warnings are raised if values are outside of known limits:
 
 Green color: Within limits
 
@@ -33,4 +26,5 @@ Red color: Flow velocity > 2 m/s in copper pipes, Flow velocity > 3 m/s in steel
 
 An additional comment regarding thermostatic bypass valves is raised at table footer if differential pressure > 2 bar at connection point
 
-
+## License
+[Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
