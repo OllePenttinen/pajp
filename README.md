@@ -15,7 +15,7 @@ A long-established industry practice is to stay below a flow rate of 1 m/s and
 The purpose is to avoid reduced comfort for customers due to high noise levels and increased wear on components. 
 However, this practice is beginning to be questioned and with a more dynamic approach to system dimensioning, the competitiveness of district heating will increase.
  
-This software represent one outcome from a project aimed at questioning that industry practice. The findings from the project has emerged into a software to help optimize the dimensioning of service pipes. 
+This software represent one outcome from a project aimed at questioning that industry practice. The findings from the project has emerged into a software to help optimize the dimensioning of service pipes. Note that the proposed limits in the original commit is based on a combination of experiences gathered during this project.
 The project consisted of a literature study, a survey among network owners, interviews of measurement technology providers and product suppliers in the district heating sector. It also included experiments in a laboratory environment. 
 
 This project was coordinated by [FVB](https://www.fvb.se/). The project was initiated and funded by [Energiforsk/Futureheat](https://energiforsk.se/program/futureheat/). 
@@ -30,7 +30,7 @@ Densities, viscosities and enthalpies are calculated based on [IAPWS-95](http://
 * Yellow color: Pressure drop > 100 Pa/m, Flow velocity > 1 m/s, Flow velocity > 1.5 m/s
 * Red color: Flow velocity > 2 m/s in copper pipes, Flow velocity > 3 m/s in steel pipes, Differential pressure > 6 bar at customer, Differential pressure < 1 bar at customer.
 
-An additional comment regarding thermostatic bypass valves is raised at the table footer if differential pressure > 2 bar at the connection point. Note that the proposed limits in the original commit is based on a combination of experiences gathered during this project and findings in literature.
+An additional comment regarding thermostatic bypass valves is raised at the table footer if differential pressure > 2 bar at the connection point. 
 
 ## Adaptation
 
