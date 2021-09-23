@@ -18,7 +18,7 @@ However, this practice is beginning to be questioned and with a more dynamic app
 This software represent one outcome from a project aimed at questioning that industry practice. The findings from the project has emerged into a software to help optimize the dimensioning of service pipes. Note that the proposed limits in the original commit is based on a combination of experiences gathered during this project.
 The project consisted of a literature study, a survey among network owners, interviews of measurement technology providers and product suppliers in the district heating sector. It also included experiments in a laboratory environment. 
 
-This project was coordinated by [FVB](https://www.fvb.se/). The project was initiated and funded by [Energiforsk/Futureheat](https://energiforsk.se/program/futureheat/). 
+This project was coordinated by [FVB](https://www.fvb.se/). It was initiated and funded by [Energiforsk/Futureheat](https://energiforsk.se/program/futureheat/). 
 
 ## Functionality
 
