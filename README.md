@@ -1,6 +1,6 @@
 ![Accelerometer on pipe](img/banner3.png)
 # PAJP
-A web based tool for dimensioning of service pipes within district heating applications. A working demo is available [here](https://penttinen.se/pajp/).
+A web based tool for dimensioning of service pipes within district heating systems. A working demo is available [here](https://penttinen.se/pajp/).
 
 Author: Olle Penttinen, Researcher @ [RISE Research Institutes of Sweden](https://www.ri.se/en)
 
