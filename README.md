@@ -16,13 +16,14 @@ The inputs to the left are used to calculate a difference in enthalpy. Preset va
 
 Densities, viscosities and enthalpies are calculated based on IAPWS formulation. Friction factor is retrieved by solving the Colebrook-White equation iteratively. Warnings are raised if values are outside of known limits:
 
-Green color: Within limits
+*Green color: Within limits
+*Yellow color: Pressure drop > 100 Pa/m, Flow velocity > 1 m/s, Flow velocity > 1.5 m/s
+*Red color: Flow velocity > 2 m/s in copper pipes, Flow velocity > 3 m/s in steel pipes, Differential pressure > 6 bar at customer, Differential pressure < 1 bar at customer.
 
-Yellow color: Pressure drop > 100 Pa/m, Flow velocity > 1 m/s, Flow velocity > 1.5 m/s
+An additional comment regarding thermostatic bypass valves is raised at the table footer if differential pressure > 2 bar at the connection point.
 
-Red color: Flow velocity > 2 m/s in copper pipes, Flow velocity > 3 m/s in steel pipes, Differential pressure > 6 bar at customer, Differential pressure < 1 bar at customer
-
-An additional comment regarding thermostatic bypass valves is raised at table footer if differential pressure > 2 bar at connection point
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
