@@ -20,9 +20,9 @@ The project consisted of a literature study, a survey among network owners, inte
 This project was coordinated by [FVB](https://www.fvb.se/). The project was initiated and funded by [Energiforsk/Futureheat](https://energiforsk.se/program/futureheat/). 
 
 ## Functionality
-The inputs to the left are used to calculate a difference in enthalpy. Preset values are entered to trigger three types of warning badges among the results. The enthalpy difference is used to calculate a massflow in order to serve the substation with the stated power. Corresponding pressure drops, velocities and differential pressures are calculated and stored for the different pipe dimensions.
+The functionality of the website is relatively straight forward. The inputs to the left are used to calculate a difference in enthalpy. Preset values are entered to trigger three types of warning badges among the results. The enthalpy difference is used to calculate a massflow in order to serve the substation with the stated power. Corresponding pressure drops, velocities and differential pressures are calculated and stored for the different pipe dimensions.
 
-Densities, viscosities and enthalpies are calculated based on IAPWS formulation. Friction factor is retrieved by solving the Colebrook-White equation iteratively. Warnings are raised if values are outside of known limits:
+Densities, viscosities and enthalpies are calculated based on IAPWS formulation in region 1. That means that the relationships are valid as long as pressure is kept above the evaporation pressure. Explicit limits for temperature and pressure are found in the source code. Negative values or NaN in the results indicates results are out of limits. (Error catching is not implemented.) The friction factor is retrieved by solving the Colebrook-White equation iteratively. Warnings are raised if values are outside of known limits:
 
 * Green color: Within limits
 * Yellow color: Pressure drop > 100 Pa/m, Flow velocity > 1 m/s, Flow velocity > 1.5 m/s
