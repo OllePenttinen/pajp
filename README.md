@@ -1,5 +1,5 @@
 # pajp
-A web based tool for service pipe dimensioning within district heating applications.
+A web based tool for service pipe dimensioning within district heating applications. A working demo is available [here](https://penttinen.se/pajp/).
 
 Author: Olle Penttinen, Researcher @ [RISE Research Institutes of Sweden](https://www.ri.se/en)
 
