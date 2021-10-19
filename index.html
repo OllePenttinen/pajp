@@ -270,7 +270,8 @@
   function addVelocity(pipeArray, massfl, dens) {
     pipeArray.forEach( item => {
       let id = item[1]/1000; // 
-      let velocity = massfl/dens/Math.PI/Math.pow(id,2);
+      let ir = id/2;
+      let velocity = massfl/dens/Math.PI/Math.pow(ir,2);
       item.push(Math.round(velocity*100)/100);
     });
     return pipeArray;
